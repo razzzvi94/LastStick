@@ -1,0 +1,160 @@
+<resources>
+    <string name="app_name" translatable="false">LastStick</string>
+    <string name="tagline">Think ahead. Swipe wisely. Never take the last stick.</string>
+    <string name="supporting_label">STRATEGY · LOGIC · AI</string>
+
+    <!-- Common -->
+    <string name="back">Back</string>
+    <string name="cancel">Cancel</string>
+    <string name="state_on">On</string>
+    <string name="state_off">Off</string>
+
+    <!-- Menu -->
+    <string name="play">Play</string>
+    <string name="leaderboard">Leaderboard</string>
+    <string name="settings">Settings</string>
+    <string name="perfect_ai">Perfect AI</string>
+    <string name="perfect_ai_on">On – an unbeatable-when-ahead solver</string>
+    <string name="perfect_ai_off">Off – a learning AI that improves as you play</string>
+    <string name="how_to_play_closed">How to play  ▼</string>
+    <string name="how_to_play_open">How to play  ▲</string>
+    <string name="rules_text">• Three rows hold 3, 5 and 7 sticks.\n• On your turn, swipe across one or more sticks in a single row, then release to remove them. Slide back over a stick to unselect it.\n• You and the AI take turns.\n• Whoever takes the very last stick loses.</string>
+
+    <!-- Game -->
+    <string name="menu_button">Menu</string>
+    <string name="new_game_button">New game</string>
+    <string name="mode_perfect">Perfect AI</string>
+    <string name="mode_learning">Learning AI</string>
+    <string name="status_getting_ready">Getting ready…</string>
+    <string name="status_coin_title">Coin flip</string>
+    <string name="status_coin_ready">Tap the coin to decide who starts</string>
+    <string name="status_coin_flipping">Flipping a coin to decide who starts…</string>
+    <string name="status_your_turn">Your turn</string>
+    <string name="status_swipe_hint">Swipe across sticks in one row (move back to unselect), then release</string>
+    <string name="status_removing_selection">Removing %1$d from row %2$d – release to confirm</string>
+    <string name="status_your_move">Your move</string>
+    <string name="status_removing">Removing sticks…</string>
+    <string name="status_ai_turn">AI\'s turn</string>
+    <string name="status_ai_thinking">AI is thinking…</string>
+    <string name="status_ai_will_take">AI will take %1$d from row %2$d</string>
+    <string name="status_ai_takes">AI takes %1$d from row %2$d</string>
+    <string name="status_game_over">Game over</string>
+    <string name="you_win">You win!</string>
+    <string name="ai_wins">AI wins</string>
+    <string name="you_start">You start!</string>
+    <string name="ai_starts">The AI starts!</string>
+    <string name="over_you_won_reason">The AI had to take the last stick.</string>
+    <string name="over_ai_won_reason">You took the last stick.</string>
+    <string name="over_rule">Whoever takes the last stick loses.</string>
+    <string name="play_again">Play again</string>
+    <string name="menu">Menu</string>
+    <string name="leave_title">Leave this game?</string>
+    <string name="restart_title">Start a new game?</string>
+    <string name="abandon_message">The game in progress will be abandoned and will not count in your statistics.</string>
+    <string name="leave">Leave</string>
+    <string name="new_game">New game</string>
+    <string name="keep_playing">Keep playing</string>
+    <plurals name="sticks_left">
+        <item quantity="one">stick left</item>
+        <item quantity="other">sticks left</item>
+    </plurals>
+    <plurals name="sticks_count">
+        <item quantity="one">%d stick</item>
+        <item quantity="other">%d sticks</item>
+    </plurals>
+    <string name="row_description">Row %1$d: %2$s</string>
+    <string name="board_hint">Swipe across sticks in one row to remove them.</string>
+    <string name="remove_from_row_action">Remove %1$d from row %2$d</string>
+
+    <!-- Coin -->
+    <string name="coin_tap_to_flip">Tap to flip</string>
+    <string name="coin_flipping">Flipping…</string>
+    <string name="coin_hint">Heads: you start · Tails: the AI starts</string>
+    <string name="coin_click_label">Flip the coin</string>
+    <string name="coin_face_you">YOU</string>
+    <string name="coin_face_ai">AI</string>
+
+    <!-- Leaderboard -->
+    <string name="leaderboard_note">Local statistics – stored on this device only. There is no online leaderboard.</string>
+    <string name="stat_games_played">Games played</string>
+    <string name="stat_win_rate">Win rate</string>
+    <string name="stat_your_wins">Your wins</string>
+    <string name="stat_ai_wins">AI wins</string>
+    <string name="stat_current_streak">Current streak</string>
+    <string name="stat_best_streak">Best win streak</string>
+    <string name="recent_games">Recent games (oldest → newest)</string>
+    <string name="no_games_yet">No games yet. Play one!</string>
+    <string name="recent_results_description">Recent results: %1$s</string>
+    <string name="result_win">win</string>
+    <string name="result_loss">loss</string>
+    <string name="chip_win">W</string>
+    <string name="chip_loss">L</string>
+    <string name="streak_win">%1$d W</string>
+    <string name="streak_loss">%1$d L</string>
+    <string name="streak_none">–</string>
+
+    <!-- Settings -->
+    <string name="settings_perfect_ai_subtitle">Uses an exact Misère Nim solver. Off uses the learning AI.</string>
+    <string name="settings_coin_title">Coin flip for first move</string>
+    <string name="settings_coin_subtitle">Flip a coin at the start of each game to decide who goes first. Off: you always start.</string>
+    <string name="settings_haptics_title">Haptic feedback</string>
+    <string name="settings_haptics_subtitle">Vibrate lightly while selecting and removing sticks.</string>
+    <string name="settings_language_title">Language</string>
+    <string name="settings_language_subtitle">Choose the language of the game.</string>
+    <string name="language_system">System default</string>
+    <string name="language_english" translatable="false">English</string>
+    <string name="language_romanian" translatable="false">Română</string>
+    <string name="settings_learning_title">Learning AI</string>
+    <string name="settings_learning_loading">Loading…</string>
+    <string name="settings_learning_info">Games learned from: %1$d. Exploration rate: %2$d%%. It improves with practice but is not guaranteed to become perfect.</string>
+    <string name="settings_train">Train with %1$d self-play games</string>
+    <string name="settings_training">Training…</string>
+    <string name="settings_reset_learning">Reset learning AI</string>
+    <string name="settings_clear_stats">Clear statistics</string>
+    <string name="settings_replay_tutorial">Replay tutorial</string>
+    <string name="clear_stats_title">Clear statistics?</string>
+    <string name="clear_stats_message">This permanently deletes your local game history.</string>
+    <string name="clear">Clear</string>
+    <string name="reset_learning_title">Reset learning AI?</string>
+    <string name="reset_learning_message">The learning AI forgets everything it has learned.</string>
+    <string name="reset">Reset</string>
+
+    <!-- Tutorial -->
+    <string name="tutorial_next">Next</string>
+    <string name="tutorial_skip">Skip</string>
+    <string name="tutorial_done">Got it</string>
+    <string name="tutorial_step_counter">%1$d / %2$d</string>
+
+    <string name="tut_menu_welcome_title">Welcome to LastStick!</string>
+    <string name="tut_menu_welcome_body">You and the AI take turns removing sticks. Whoever takes the very last stick loses.</string>
+    <string name="tut_menu_play_title">Play</string>
+    <string name="tut_menu_play_body">Tap here to start a game against the AI.</string>
+    <string name="tut_perfect_title">Perfect AI</string>
+    <string name="tut_perfect_body">Switch it on for an AI that never slips when it can win. Off, you face an AI that learns from every game.</string>
+    <string name="tut_menu_leaderboard_title">Leaderboard</string>
+    <string name="tut_menu_leaderboard_body">Your wins, losses and streaks, saved on this device.</string>
+    <string name="tut_menu_settings_title">Settings</string>
+    <string name="tut_menu_settings_body">Coin flip, haptics, language and learning-AI training live here.</string>
+
+    <string name="tut_game_board_title">Swipe to remove sticks</string>
+    <string name="tut_game_board_body">Drag your finger across sticks in ONE row, then let go to remove them. Move back to unselect. Take a single stick or a whole row.</string>
+    <string name="tut_game_status_title">Whose turn?</string>
+    <string name="tut_game_status_body">This card shows whose turn it is and how many sticks are left.</string>
+    <string name="tut_game_top_title">Menu and new game</string>
+    <string name="tut_game_top_body">Leave to the menu or restart any time – you will be asked to confirm.</string>
+    <string name="tut_game_goal_title">The goal</string>
+    <string name="tut_game_goal_body">Think ahead: do not be the one who takes the last stick!</string>
+
+    <string name="tut_settings_coin_title">Coin flip</string>
+    <string name="tut_settings_coin_body">Decide who starts with a coin toss. Off, you always go first.</string>
+    <string name="tut_settings_haptics_title">Haptics</string>
+    <string name="tut_settings_haptics_body">A light vibration while you select and remove sticks.</string>
+    <string name="tut_settings_language_title">Language</string>
+    <string name="tut_settings_language_body">Switch between English and Romanian instantly.</string>
+    <string name="tut_settings_learning_title">Learning AI</string>
+    <string name="tut_settings_learning_body">See how much it has learned, train it against itself, or reset it.</string>
+    <string name="tut_settings_stats_title">Clear statistics</string>
+    <string name="tut_settings_stats_body">Erase your local history. You will be asked to confirm first.</string>
+    <string name="tut_settings_replay_title">Replay tutorial</string>
+    <string name="tut_settings_replay_body">Come back here any time to see these tips again.</string>
+</resources>

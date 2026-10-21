@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tagline">Gândește înainte. Glisează inteligent. Nu lua niciodată ultimul băț.</string>
+    <string name="supporting_label">STRATEGIE · LOGICĂ · IA</string>
+
+    <string name="back">Înapoi</string>
+    <string name="cancel">Anulează</string>
+    <string name="state_on">Activat</string>
+    <string name="state_off">Dezactivat</string>
+
+    <string name="play">Joacă</string>
+    <string name="leaderboard">Clasament</string>
+    <string name="settings">Setări</string>
+    <string name="perfect_ai">IA perfectă</string>
+    <string name="perfect_ai_on">Activat – un solver imbatabil când e în avantaj</string>
+    <string name="perfect_ai_off">Dezactivat – o IA care învață și se îmbunătățește pe măsură ce joci</string>
+    <string name="how_to_play_closed">Cum se joacă  ▼</string>
+    <string name="how_to_play_open">Cum se joacă  ▲</string>
+    <string name="rules_text">• Trei rânduri conțin 3, 5 și 7 bețe.\n• La rândul tău, glisează peste unul sau mai multe bețe dintr-un singur rând, apoi ridică degetul pentru a le elimina. Glisează înapoi peste un băț pentru a-l deselecta.\n• Tu și IA jucați pe rând.\n• Cine ia ultimul băț pierde.</string>
+
+    <string name="menu_button">Meniu</string>
+    <string name="new_game_button">Joc nou</string>
+    <string name="mode_perfect">IA perfectă</string>
+    <string name="mode_learning">IA care învață</string>
+    <string name="status_getting_ready">Se pregătește…</string>
+    <string name="status_coin_title">Aruncarea monedei</string>
+    <string name="status_coin_ready">Atinge moneda pentru a decide cine începe</string>
+    <string name="status_coin_flipping">Moneda se rotește pentru a decide cine începe…</string>
+    <string name="status_your_turn">Rândul tău</string>
+    <string name="status_swipe_hint">Glisează peste bețele dintr-un rând (mergi înapoi pentru a deselecta), apoi ridică degetul</string>
+    <string name="status_removing_selection">Elimini %1$d din rândul %2$d – ridică degetul pentru a confirma</string>
+    <string name="status_your_move">Mutarea ta</string>
+    <string name="status_removing">Se elimină bețele…</string>
+    <string name="status_ai_turn">Rândul IA</string>
+    <string name="status_ai_thinking">IA se gândește…</string>
+    <string name="status_ai_will_take">IA va lua %1$d din rândul %2$d</string>
+    <string name="status_ai_takes">IA ia %1$d din rândul %2$d</string>
+    <string name="status_game_over">Joc terminat</string>
+    <string name="you_win">Ai câștigat!</string>
+    <string name="ai_wins">IA câștigă</string>
+    <string name="you_start">Începi tu!</string>
+    <string name="ai_starts">Începe IA!</string>
+    <string name="over_you_won_reason">IA a fost nevoită să ia ultimul băț.</string>
+    <string name="over_ai_won_reason">Ai luat ultimul băț.</string>
+    <string name="over_rule">Cine ia ultimul băț pierde.</string>
+    <string name="play_again">Joacă din nou</string>
+    <string name="menu">Meniu</string>
+    <string name="leave_title">Părăsești acest joc?</string>
+    <string name="restart_title">Începi un joc nou?</string>
+    <string name="abandon_message">Jocul în desfășurare va fi abandonat și nu va conta în statistici.</string>
+    <string name="leave">Părăsește</string>
+    <string name="new_game">Joc nou</string>
+    <string name="keep_playing">Continuă jocul</string>
+    <plurals name="sticks_left">
+        <item quantity="one">băț rămas</item>
+        <item quantity="few">bețe rămase</item>
+        <item quantity="other">de bețe rămase</item>
+    </plurals>
+    <plurals name="sticks_count">
+        <item quantity="one">%d băț</item>
+        <item quantity="few">%d bețe</item>
+        <item quantity="other">%d de bețe</item>
+    </plurals>
+    <string name="row_description">Rândul %1$d: %2$s</string>
+    <string name="board_hint">Glisează peste bețele dintr-un rând pentru a le elimina.</string>
+    <string name="remove_from_row_action">Elimină %1$d din rândul %2$d</string>
+
+    <string name="coin_tap_to_flip">Atinge pentru a arunca</string>
+    <string name="coin_flipping">Se rotește…</string>
+    <string name="coin_hint">Cap: începi tu · Pajură: începe IA</string>
+    <string name="coin_click_label">Aruncă moneda</string>
+    <string name="coin_face_you">TU</string>
+    <string name="coin_face_ai">IA</string>
+
+    <string name="leaderboard_note">Statistici locale – salvate doar pe acest dispozitiv. Nu există un clasament online.</string>
+    <string name="stat_games_played">Jocuri jucate</string>
+    <string name="stat_win_rate">Rată de câștig</string>
+    <string name="stat_your_wins">Victoriile tale</string>
+    <string name="stat_ai_wins">Victoriile IA</string>
+    <string name="stat_current_streak">Serie curentă</string>
+    <string name="stat_best_streak">Cea mai bună serie</string>
+    <string name="recent_games">Jocuri recente (de la cel mai vechi la cel mai nou)</string>
+    <string name="no_games_yet">Niciun joc încă. Joacă unul!</string>
+    <string name="recent_results_description">Rezultate recente: %1$s</string>
+    <string name="result_win">victorie</string>
+    <string name="result_loss">înfrângere</string>
+    <string name="chip_win">V</string>
+    <string name="chip_loss">Î</string>
+    <string name="streak_win">%1$d V</string>
+    <string name="streak_loss">%1$d Î</string>
+    <string name="streak_none">–</string>
+
+    <string name="settings_perfect_ai_subtitle">Folosește un solver exact pentru Nim misère. Dezactivat folosește IA care învață.</string>
+    <string name="settings_coin_title">Moneda pentru prima mutare</string>
+    <string name="settings_coin_subtitle">Aruncă o monedă la începutul fiecărui joc pentru a decide cine începe. Dezactivat: începi mereu tu.</string>
+    <string name="settings_haptics_title">Vibrații</string>
+    <string name="settings_haptics_subtitle">Vibrează ușor când selectezi și elimini bețe.</string>
+    <string name="settings_language_title">Limbă</string>
+    <string name="settings_language_subtitle">Alege limba jocului.</string>
+    <string name="language_system">Implicit sistem</string>
+    <string name="settings_learning_title">IA care învață</string>
+    <string name="settings_learning_loading">Se încarcă…</string>
+    <string name="settings_learning_info">Jocuri din care a învățat: %1$d. Rata de explorare: %2$d%%. Se îmbunătățește cu practica, dar nu e garantat că devine perfectă.</string>
+    <string name="settings_train">Antrenează cu %1$d jocuri împotriva ei însăși</string>
+    <string name="settings_training">Se antrenează…</string>
+    <string name="settings_reset_learning">Resetează IA care învață</string>
+    <string name="settings_clear_stats">Șterge statisticile</string>
+    <string name="settings_replay_tutorial">Reia tutorialul</string>
+    <string name="clear_stats_title">Ștergi statisticile?</string>
+    <string name="clear_stats_message">Istoricul local al jocurilor va fi șters definitiv.</string>
+    <string name="clear">Șterge</string>
+    <string name="reset_learning_title">Resetezi IA care învață?</string>
+    <string name="reset_learning_message">IA care învață uită tot ce a învățat.</string>
+    <string name="reset">Resetează</string>
+
+    <string name="tutorial_next">Înainte</string>
+    <string name="tutorial_skip">Omite</string>
+    <string name="tutorial_done">Am înțeles</string>
+
+    <string name="tut_menu_welcome_title">Bun venit în LastStick!</string>
+    <string name="tut_menu_welcome_body">Tu și IA luați pe rând bețe. Cine ia ultimul băț pierde.</string>
+    <string name="tut_menu_play_title">Joacă</string>
+    <string name="tut_menu_play_body">Atinge aici pentru a începe un joc împotriva IA.</string>
+    <string name="tut_perfect_title">IA perfectă</string>
+    <string name="tut_perfect_body">Activeaz-o pentru o IA care nu greșește când poate câștiga. Dezactivată, înfrunți o IA care învață din fiecare joc.</string>
+    <string name="tut_menu_leaderboard_title">Clasament</string>
+    <string name="tut_menu_leaderboard_body">Victoriile, înfrângerile și seriile tale, salvate pe acest dispozitiv.</string>
+    <string name="tut_menu_settings_title">Setări</string>
+    <string name="tut_menu_settings_body">Aici găsești moneda, vibrațiile, limba și antrenarea IA.</string>
+
+    <string name="tut_game_board_title">Glisează pentru a elimina bețe</string>
+    <string name="tut_game_board_body">Trage degetul peste bețele dintr-UN SINGUR rând, apoi ridică-l pentru a le elimina. Mergi înapoi pentru a deselecta. Poți lua un băț sau un rând întreg.</string>
+    <string name="tut_game_status_title">Al cui e rândul?</string>
+    <string name="tut_game_status_body">Cardul arată al cui e rândul și câte bețe au rămas.</string>
+    <string name="tut_game_top_title">Meniu și joc nou</string>
+    <string name="tut_game_top_body">Ieși în meniu sau repornește oricând – ți se va cere confirmarea.</string>
+    <string name="tut_game_goal_title">Scopul</string>
+    <string name="tut_game_goal_body">Gândește înainte: nu fi tu cel care ia ultimul băț!</string>
+
+    <string name="tut_settings_coin_title">Aruncarea monedei</string>
+    <string name="tut_settings_coin_body">Decide cine începe cu o monedă. Dezactivat, începi mereu tu.</string>
+    <string name="tut_settings_haptics_title">Vibrații</string>
+    <string name="tut_settings_haptics_body">O vibrație ușoară când selectezi și elimini bețe.</string>
+    <string name="tut_settings_language_title">Limbă</string>
+    <string name="tut_settings_language_body">Comută instant între engleză și română.</string>
+    <string name="tut_settings_learning_title">IA care învață</string>
+    <string name="tut_settings_learning_body">Vezi cât a învățat, antreneaz-o împotriva ei însăși sau resetează-o.</string>
+    <string name="tut_settings_stats_title">Șterge statisticile</string>
+    <string name="tut_settings_stats_body">Șterge istoricul local. Ți se va cere mai întâi confirmarea.</string>
+    <string name="tut_settings_replay_title">Reia tutorialul</string>
+    <string name="tut_settings_replay_body">Revino aici oricând pentru a vedea din nou aceste sfaturi.</string>
+</resources>
